@@ -1,0 +1,337 @@
+.divs-3 img  {
+    margin-left: 100px;
+    }
+    
+    .divs-3 p {
+        font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 277.33px;
+    height: 168px;
+    margin-top: 14px;
+    }
+    
+    .div-35 {
+    width: 277.33px;
+    height: 52px;
+    gap: 4px;
+    // background-color: cornsilk;
+    }
+    
+    .div-35 strong {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 277.33px;
+    height: 28px;
+    margin-left: 81px;
+    }
+    
+    .div-35 h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 277.33px;
+    height: 20px;
+    
+    }
+    
+    .foter {
+    width: 1216px;
+    height: 588px;
+    // background-color: blue;
+    margin: auto;
+    }
+    
+    .button {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        border: none;
+        background: none;
+        color: #0f1923;
+        cursor: pointer;
+        position: relative;
+        padding: 8px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all .15s ease;
+      }
+      
+      .button::before,
+      .button::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        height: calc(50% - 5px);
+        border: 1px solid #7D8082;
+        transition: all .15s ease;
+      }
+      
+      .button::before {
+        top: 0;
+        border-bottom-width: 0;
+      }
+      
+      .button::after {
+        bottom: 0;
+        border-top-width: 0;
+      }
+      
+      .button:active,
+      .button:focus {
+        outline: none;
+      }
+      
+      .button:active::before,
+      .button:active::after {
+        right: 3px;
+        left: 3px;
+      }
+      
+      .button:active::before {
+        top: 3px;
+      }
+      
+      .button:active::after {
+        bottom: 3px;
+      }
+      
+      .button_lg {
+        position: relative;
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #0f1923;
+        overflow: hidden;
+        box-shadow: inset 0px 0px 0px 1px transparent;
+      }
+      
+      .button_lg::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 2px;
+        background-color: #0f1923;
+      }
+      
+      .button_lg::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 4px;
+        height: 4px;
+        background-color: #0f1923;
+        transition: all .2s ease;
+      }
+    
+      .button_text a {
+        text-decoration: none;
+      }
+      
+    .mh--iRy {
+        width: 107px;
+    height: 36px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+      
+      .button_sl {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: -1px;
+        left: -8px;
+        width: 0;
+        background-color: #ff4655;
+        transform: skew(-15deg);
+        transition: all .2s ease;
+      }
+      
+      .button_text {
+        position: relative;
+      }
+      
+      .button:hover {
+        color: #0f1923;
+      }
+      
+      .button:hover .button_sl {
+        width: calc(100% + 15px);
+      }
+      
+      .button:hover .button_lg::after {
+        background-color: #fff;
+      }
+      
+    
+    
+    .fr-div {
+     width: 1180px;
+    height: 396px;
+    // background-color: aqua;
+    margin: auto;
+    margin-top: 140px;
+    }
+    
+    .for-btn {
+     width: 1000px;
+    height: 128px;
+    gap: 16px;
+    // background-color: rgb(211, 25, 25);
+    margin: auto;
+    }
+    
+    .for-btn button {
+      margin-left: 450px;
+    }
+    
+    .for-btn p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 576px;
+    height: 84px;
+    margin-left: 200px;
+    }
+    
+    .emails {
+    width: 490px;
+    height: 104px;
+    gap: 16px;
+    margin-left: 415px;
+    margin-top: 50px;
+    display: flex;
+    }
+    
+    .emails  i {
+        margin-top: 15px;
+    
+    }
+    
+    
+    .telephone {
+    width: 440px;
+    height: 44px;
+    // background-color: brown;
+    margin: auto;
+    margin-top: -65px;
+    display: flex;
+    }
+    
+    .telephone i {
+        margin-top: 23px;
+        margin-left: 61px;
+    }
+    
+    .telephone h4 {
+        margin-top: 10px;
+        margin-left: 17px;
+        width: 324px;
+    height: 40px;
+    
+    }
+    
+    .button-ted {
+     width: 125px;
+    height: 28px;
+    // padding: 4px, 20px, 4px, 20px;
+    border-radius: 12px;
+    background-color: grey;
+    }
+    
+    .button-ted:hover {
+        background-color: #23c483;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+    
+    
+      .button-ted:active {
+        transform: translateY(-1px);
+      }
+      
+    
+      .get-button {
+        background-color: #b31717;
+        box-shadow: 0px 15px 20px rgba(149, 180, 168, 0.4);
+        color: #fff;
+        transform: translateY(-9px);
+        width: 125px;
+    height: 28px;
+    // padding: 4px, 20px,   4px, 20px;
+    border-radius: 12px;
+    background-color: grey;
+      }
+    
+      .get-button:active {
+        transform: translateY(-1px);
+      }
+    
+    
+      button {
+        // padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+       }
+       
+       button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+       }
+       
+       button:hover {
+        color: #e8e8e8;
+       }
+       
+       button:hover::before {
+        width: 100%;
+       }
